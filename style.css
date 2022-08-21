@@ -1,0 +1,139 @@
+body {
+    background-color:  rgb(17, 17, 17);
+    margin: 0; height: 100%; overflow: hidden
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-family: "Inter", serif;
+    display: center;
+    text-align: center;
+    margin-top: 370px;
+    font-size: 50px;
+    text-shadow: 0 0 7px rgba(255, 255, 255, 0.383);
+    
+    /* Will disable Copy & Paste */ 
+    -webkit-user-select: none; /* Will disable for Chrome/Safari */        
+    -moz-user-select: none; /* Will disable for Firefox */
+    -ms-user-select: none; /* Will disable for IE10+ */
+    user-select: none;  
+}
+ 
+.coloredtext::before {
+    color: rgb(88, 101, 242);
+    font-family: "Inter", serif;
+    font-size: 50px;
+    content: "移动";
+
+    /* Will disable Copy & Paste */ 
+    -webkit-user-select: none; /* Will disable for Chrome/Safari */        
+    -moz-user-select: none; /* Will disable for Firefox */
+    -ms-user-select: none; /* Will disable for IE10+ */
+    user-select: none;  
+}
+
+.footertext {
+    font-family: "Inter", serif;
+    color: rgb(55, 55, 55);
+    font-size: 15px;
+    margin-top: 345px;
+    text-align: center;
+
+    /* Will disable Copy & Paste */ 
+    -webkit-user-select: none; /* Will disable for Chrome/Safari */        
+    -moz-user-select: none; /* Will disable for Firefox */
+    -ms-user-select: none; /* Will disable for IE10+ */
+
+    user-select: none;  
+}
+
+.discordlinktext {
+    font-family: "Inter", "sans-serif";
+    color: rgb(158, 158, 158);
+    font-size: 20px;
+    margin-top: 30px;
+    margin-right: -50px;
+    text-align: center;
+    text-shadow: 0 0 0px;
+    font-weight: 550;
+
+    /* Will disable Copy & Paste */ 
+    -webkit-user-select: none; /* Will disable for Chrome/Safari */        
+    -moz-user-select: none; /* Will disable for Firefox */
+    -ms-user-select: none; /* Will disable for IE10+ */
+    user-select: none;  
+}
+
+.discordlinktext:hover {
+    text-shadow: 0 0 5px rgba(255, 255, 255);
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+}
+
+.discordlinktext:not(:hover) {
+    color: rgb(158, 158, 158);
+    transition: 0.5s;
+}
+
+.fa-discord:before {
+    font-size: 40px;
+    color:rgba(88, 101, 242); 
+    margin-left: 835px;
+    display: inline-block;
+    margin-top: -45px;
+    text-shadow: 0 0 7px rgba(88, 101, 242);
+
+    /* Will disable Copy & Paste */ 
+    -webkit-user-select: none; /* Will disable for Chrome/Safari */        
+    -moz-user-select: none; /* Will disable for Firefox */
+    -ms-user-select: none; /* Will disable for IE10+ */
+    user-select: none;  
+}
+
+.buttonok{
+    background-color: rgb(33, 42, 71);
+    border-radius: 5px;
+    color: white;
+    border: 2px solid rgb(82, 113, 230);
+    padding: 6.5px 49px;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    position: center;
+    display: block;
+    font-size: 16px;
+    margin-right: 100px;
+    margin: 0 auto;
+    transition: 0.3s;
+    font-family: "Inter", serif;
+    align-items: center;
+    justify-content: center;
+
+    /* Will disable Copy & Paste */ 
+    -webkit-user-select: none; /* Will disable for Chrome/Safari */        
+    -moz-user-select: none; /* Will disable for Firefox */
+    -ms-user-select: none; /* Will disable for IE10+ */
+    user-select: none;  
+  
+}
+
+.buttonok:hover {
+    background-color: rgb(51, 65, 111);
+    border-radius: 5px;
+    color: white;
+    border: 2px solid rgb(113, 137, 225);
+    transition: 0.3s;
+
+    /* Will disable Copy & Paste */ 
+    -webkit-user-select: none; /* Will disable for Chrome/Safari */        
+    -moz-user-select: none; /* Will disable for Firefox */
+    -ms-user-select: none; /* Will disable for IE10+ */
+    user-select: none;    
+}
+
+p{
+    color: white;
+    text-align: center;
+}
+ 
